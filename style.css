@@ -1,0 +1,31 @@
+h1 {
+  color: #d2691e;
+  text-decoration: underline;
+  
+}
+
+body {
+  font-family: monospace;
+  background-color: #54ff54;
+}
+
+h2{
+ color: #9974cc; 
+}
+
+small {
+  font-style: italic;
+}
+
+.homebutton {
+  float:right;
+}
+
+.homebuttonfiller {
+  float: right;
+  color: #54ff54;
+}
+
+.hometitlefiller {
+  color: #54ff54;
+}
