@@ -1,9 +1,9 @@
 
 /**
- * Write a description of class class1 here.
+ * This is a class that runs a python program.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Rab Greenup
+ * @version 1.0.0
  */
 import java.io.*;
 public class class1{
@@ -15,7 +15,7 @@ public class class1{
     public void sampleMethod(){
         try{
             try{
-                Process process = Runtime.getRuntime().exec("cmd /c start chessboard.py");
+                Process process = Runtime.getRuntime().exec("cmd /c start programNameGoesHere.py");
                 process.waitFor();
                 int exitCode = process.exitValue();
                 System.out.println(exitCode);
